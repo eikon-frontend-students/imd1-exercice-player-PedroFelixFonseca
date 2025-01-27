@@ -10,5 +10,17 @@
     "artist": "Lil Pump",
     "src": "music/GucciGang.mp3",
     "cover": "covers/GucciGang.png"
+  },
+  {
+    "title": "Pamela",
+    "artist": "Chat Pile",
+    "src": "music/Pamela.mp3",
+    "cover": "covers/Chat-Pile-Gods-Country.jpg"
+  },
+  {
+    "title": "Prognósticos",
+    "artist": "B Fachada",
+    "src": "music/Prognósticos.mp3",
+    "cover": "covers/b fachada.jpg"
   }
 ]
