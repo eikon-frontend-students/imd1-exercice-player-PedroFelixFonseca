@@ -1,4 +1,8 @@
 /* Cacher le bouton pause en mode PAUSE */
+* {
+  margin: 0;
+  padding: 0;
+}
 #pause-icon {
   display: none;
 }
@@ -15,7 +19,6 @@
 
 /* Changer le style du bouton like */
 #like.liked {
-  background-color: green;
 }
 
 /* Sliders */
@@ -55,8 +58,104 @@ input[type="range"]::-webkit-slider-runnable-track {
   border: none;
   background: transparent;
 }
+.showing {
+  max-width: 113px;
+  max-height: 113px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.appname {
+  color: var(--white, #e1e4c9);
+  font-family: "Cabinet Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-bottom: white solid;
+}
+.logo {
+  margin: 40px;
+}
+.principal-top {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  color: #e1e4c9;
+  text-align: center;
+  font-family: "Cabinet Grotesk";
+  font-size: 16 px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.artisteetrack {
+  margin-left: 30px;
+}
+.principal-bottom {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: #e1e4c9 solid;
+  margin: 20px;
+  padding-bottom: 20px;
+}
 body {
-  background: url(background/Texturelabs_Paper_338L.jpg) lightgray 50% / cover
-    no-repeat;
-  mix-blend-mode: screen;
+  background: var(--Green-dark, #334231);
+}
+.playing {
+  background-color: rgb(255, 255, 255);
+}
+button {
+  background: none;
+  border: none;
+}
+p {
+  color: #e1e4c9;
+  text-align: center;
+  font-family: "Cabinet Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.playlist-tracks {
+  margin: 18px;
+  display: flex;
+  height: 69px;
+  padding: 4px 5px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 10px;
+  background: rgba(119, 198, 108, 0.2);
+  overflow: hidden;
+  color: #e1e4c9;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Cabinet Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.infos-track {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 10px;
+  border-left: #e1e4c9 solid;
+}
+ul {
+  list-style-type: none;
+}
+.media-player {
+  margin: auto;
+  max-width: 375px;
 }
