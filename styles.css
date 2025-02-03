@@ -160,7 +160,8 @@ ul {
 }
 .media-player {
   margin: auto;
-  max-width: 375px;
+  max-width: 400px;
+
   border: #e1e4c9 solid;
   border-radius: 20px;
   background: url(background/Texturelabs_Paper_338L.jpg) lightgray 50% / cover
