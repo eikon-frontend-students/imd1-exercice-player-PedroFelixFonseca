@@ -22,5 +22,11 @@
     "artist": "Boris",
     "src": "music/Naki Kyoku.mp3",
     "cover": "covers/Boris_(band)_-_Akuma_no_Uta.jpg"
+  },
+  {
+    "title": "Big Taker Over",
+    "artist": "Bad Brains",
+    "src": "music/Bad Brains - Big Take Over.mp3",
+    "cover": "covers/Bad_Brains_debut.jpg"
   }
 ]
