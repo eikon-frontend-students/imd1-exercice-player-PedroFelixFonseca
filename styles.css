@@ -55,3 +55,8 @@ input[type="range"]::-webkit-slider-runnable-track {
   border: none;
   background: transparent;
 }
+body {
+  background: url(background/Texturelabs_Paper_338L.jpg) lightgray 50% / cover
+    no-repeat;
+  mix-blend-mode: screen;
+}
