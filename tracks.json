@@ -22,5 +22,17 @@
     "artist": "B Fachada",
     "src": "music/Prognósticos.mp3",
     "cover": "covers/b fachada.jpg"
+  },
+  {
+    "title": "Me More Cowboy Than You",
+    "artist": "The Brudi Brothers",
+    "src": "music/Me More Cowboy Than You.mp3",
+    "cover": "covers/a2889072062_65.jpg"
+  },
+  {
+    "title": "Naki Kyoku",
+    "artist": "Boris",
+    "src": "music/Naki Kyoku.mp3",
+    "cover": "covers/Boris_(band)_-_Akuma_no_Uta.jpg"
   }
 ]
