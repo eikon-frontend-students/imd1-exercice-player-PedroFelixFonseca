@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 #pause-icon {
   display: none;
 }
@@ -18,9 +19,13 @@
 }
 
 /* Changer le style du bouton like */
-#like.liked {
-}
 
+#like.like-principal {
+  display: inline;
+}
+.liked {
+  display: none;
+}
 /* Sliders */
 input[type="range"] {
   -webkit-appearance: none;
@@ -85,24 +90,20 @@ input[type="range"]::-webkit-slider-runnable-track {
 .principal {
   margin: 20px;
   border-bottom: #e1e4c9 solid;
+  position: sticky;
 }
 .principal-top {
   gap: 10px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
-  color: #e1e4c9;
   text-align: center;
   font-family: "Cabinet Grotesk";
-  font-size: 16 px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .principal-bottom {
   display: flex;
   justify-content: space-around;
-
   padding-bottom: 20px;
 }
 body {
@@ -179,4 +180,8 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.track-mini-cover {
+  max-width: 60px;
 }
