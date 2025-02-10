@@ -1,4 +1,9 @@
 /* Cacher le bouton pause en mode PAUSE */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #pause-icon {
   display: none;
 }
@@ -14,10 +19,13 @@
 }
 
 /* Changer le style du bouton like */
-#like.liked {
-  background-color: green;
-}
 
+#like.like-principal {
+  display: inline;
+}
+.liked {
+  display: none;
+}
 /* Sliders */
 input[type="range"] {
   -webkit-appearance: none;
@@ -54,4 +62,126 @@ input[type="range"]::-webkit-slider-runnable-track {
   box-shadow: none;
   border: none;
   background: transparent;
+}
+.showing {
+  max-width: 113px;
+  max-height: 113px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.appname {
+  color: var(--white, #e1e4c9);
+  font-family: "Cabinet Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header {
+  justify-content: center;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: white solid;
+}
+.logo {
+  margin: 40px;
+}
+.principal {
+  margin: 20px;
+  border-bottom: #e1e4c9 solid;
+  position: sticky;
+}
+.principal-top {
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+}
+.principal-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+body {
+  background: var(--Green-dark, #334231);
+  font-family: "Cabinet Grotesk";
+  color: #e1e4c9;
+}
+.playing {
+  transition: 500ms;
+  background-color: rgba(255, 255, 255, 0.275);
+}
+button {
+  background: none;
+  border: none;
+}
+p {
+  text-align: center;
+  font-family: "Cabinet Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.playlist-tracks {
+  margin: 18px;
+  display: flex;
+  height: 69px;
+  padding: 5px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 10px;
+  background: rgba(119, 198, 108, 0.2);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.infos-track {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 10px;
+  border-left: #e1e4c9 solid;
+  border-right: #e1e4c9 solid;
+  width: 213px;
+}
+ul {
+  list-style-type: none;
+}
+.media-player {
+  margin: auto;
+  max-width: 400px;
+
+  border: #e1e4c9 solid;
+  border-radius: 20px;
+  background: url(background/Texturelabs_Paper_338L.jpg) lightgray 50% / cover
+    no-repeat;
+  mix-blend-mode: screen;
+}
+.track-img-time {
+  max-width: 100%;
+  display: flex;
+  justify-self: right;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.track-mini-cover {
+  max-width: 60px;
 }

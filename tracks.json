@@ -1,14 +1,37 @@
 [
   {
-    "title": "Outer Wilds",
-    "artist": "Andrew Prahlow",
-    "src": "music/OuterWilds.mp3",
-    "cover": "covers/OuterWilds.jpg"
+    "title": "Pamela",
+    "artist": "Chat Pile",
+    "src": "music/Pamela.mp3",
+    "cover": "covers/Chat-Pile-Gods-Country.jpg",
+    "timing": "4:57"
   },
   {
-    "title": "Gucci Gang",
-    "artist": "Lil Pump",
-    "src": "music/GucciGang.mp3",
-    "cover": "covers/GucciGang.png"
+    "title": "Prognósticos",
+    "artist": "B Fachada",
+    "src": "music/Prognósticos.mp3",
+    "cover": "covers/b fachada.jpg",
+    "timing": "4:41"
+  },
+  {
+    "title": "Me More Cowboy Than You",
+    "artist": "The Brudi Brothers",
+    "src": "music/Me More Cowboy Than You.mp3",
+    "cover": "covers/me_more_cowboy.jpeg",
+    "timing": "2:43"
+  },
+  {
+    "title": "Naki Kyoku",
+    "artist": "Boris",
+    "src": "music/Naki Kyoku.mp3",
+    "cover": "covers/Boris_(band)_-_Akuma_no_Uta.jpg",
+    "timing": "12:13"
+  },
+  {
+    "title": "Big Taker Over",
+    "artist": "Bad Brains",
+    "src": "music/Bad Brains - Big Take Over.mp3",
+    "cover": "covers/Bad_Brains_debut.jpg",
+    "timing": "2:58"
   }
 ]

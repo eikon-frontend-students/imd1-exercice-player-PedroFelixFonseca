@@ -172,6 +172,8 @@ const audioPlayer = (() => {
       clone.querySelector(".track").setAttribute("id", `track-${index}`);
       clone.querySelector(".track-title").textContent = track.title;
       clone.querySelector(".track-artist").textContent = track.artist;
+      clone.querySelector(".track-mini-cover").src = track.cover;
+      clone.querySelector(".track-timing").textContent = track.timing;
       clone.querySelector(".track").addEventListener("click", () => {
         currentTrackIndex = index;
         loadTrack(currentTrackIndex);
